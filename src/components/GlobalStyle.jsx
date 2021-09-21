@@ -15,9 +15,18 @@ export default createGlobalStyle`
     }
 
     body {
-        font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        background-color: #fff;
+        font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background: url('https://img.freepik.com/free-photo/white-simple-textured-design-background_53876-97408.jpg?size=338&ext=jpg');
         line-height: 1.4;
+    }
+
+    .cta {
+        background-color: inherit;
+        border: 0;
+    }
+
+    .logo {
+        border-radius: 50%;
     }
 
     a:link,
